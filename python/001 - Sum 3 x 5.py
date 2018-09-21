@@ -1,3 +1,7 @@
+import time
+
+start = time.time()
+
 total = 0
 
 for i in range(0,1000):
@@ -5,3 +9,7 @@ for i in range(0,1000):
         total += i
         
 print(total)
+
+end = time.time()
+
+print((end - start)*1000)
