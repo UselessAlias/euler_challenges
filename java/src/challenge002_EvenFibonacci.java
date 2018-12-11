@@ -1,6 +1,6 @@
 import java.net.SocketOption;
 
-public class challenge2_EvenFibonacci {
+public class challenge002_EvenFibonacci {
 
     public static void main (String args[]) {
 

@@ -1,4 +1,4 @@
-public class challenge1_Sumof3and5 {
+public class challenge001_Sumof3and5 {
 
     public static void main (String args[]) {
 

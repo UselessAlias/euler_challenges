@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class challenge3_LargestPrimeFactor {
+public class challenge003_LargestPrimeFactor {
 
     public static boolean prime(int num) {
         double root = Math.sqrt(num);

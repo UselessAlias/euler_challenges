@@ -1,3 +1,7 @@
+import time
+
+start = time.time()
+
 def prime_eratosthenes(n):
     not_prime_list = set()
     prime_counter = 1
@@ -18,3 +22,7 @@ def prime_eratosthenes(n):
     return max(prime_list)
 
 print(prime_eratosthenes(10001))
+
+end = time.time()
+
+print(end - start)

@@ -1,3 +1,7 @@
+import time
+
+start = time.time()
+
 def prime_eratosthenes(n):
     not_prime_list = set()
     prime_list = set()
@@ -17,3 +21,7 @@ for prime in primes:
     total += prime
 
 print(total)
+
+end = time.time()
+
+print(end - start)
